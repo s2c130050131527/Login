@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/firstgroup"
+        android:checkableBehavior="single"/>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/secondgroup">
+
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/settingicon"
+        android:title="@string/setting" />
+    <!--<item-->
+        <!--android:id="@+id/nav_about"-->
+        <!--android:icon="@drawable/abouticon"-->
+        <!--android:title="@string/about" />-->
+    <!--<item-->
+        <!--android:id="@+id/help"-->
+        <!--android:icon="@drawable/helpicon"-->
+        <!--android:title="@string/help" />-->
+
+        <item
+            android:id="@+id/checktimer"
+            android:icon="@drawable/timericon"
+            android:title="Check Timers" />
+        <!--<item-->
+            <!--android:id="@+id/help"-->
+            <!--android:icon="@drawable/helpicon"-->
+            <!--android:title="@string/help" />-->
+    </group>
+    <group
+    android:id="@+id/second"
+    android:checkableBehavior="single">
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/smartswitch"
+        android:title="Smart Switch"
+        app:actionLayout="@layout/menuswitch"
+        app:showAsAction="always" />
+
+</group>
+</menu>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+            <corners
+                android:radius="22dp"
+                />
+            <gradient
+                android:gradientRadius="100"
+                android:centerX="35%"
+                android:centerY="50%"
+                android:centerColor="#E9F4F5"
+                android:startColor="#FFFFFF"
+                android:endColor="#D3D3D4"
+                android:type="radial"
+                />
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp"
+                />
+            <size
+                android:width="270dp"
+                android:height="60dp"
+                />
+            <stroke
+                android:width="2dp"
+                android:color="#9EB5B2"
+                />
+        </shape>
+        Click Event
+    </item>
+    <item android:state_focused="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+            <corners
+                android:radius="22dp"
+                />
+            <gradient
+                android:gradientRadius="100"
+                android:centerX="35%"
+                android:centerY="50%"
+                android:centerColor="#E9F4F5"
+                android:startColor="#FFFFFF"
+                android:endColor="#D3D3D4"
+                android:type="radial"
+                />
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp"
+                />
+            <size
+                android:width="270dp"
+                android:height="60dp"
+                />
+            <stroke
+                android:width="2dp"
+                android:color="#9EB5B2"
+                />
+        </shape>
+        Click Event
+    </item>
+    <item >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+            <corners
+                android:radius="22dp"
+                />
+            <solid
+                android:color="#D3D3D4"
+                />
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp"
+                />
+            <size
+                android:width="270dp"
+                android:height="60dp"
+                />
+            <stroke
+                android:width="2dp"
+                android:color="#9EB5B2"
+                />
+        </shape>
+    </item>
+</selector>

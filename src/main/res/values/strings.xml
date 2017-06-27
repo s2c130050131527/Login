@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Smart Home</string>
+    <string name="draweropen">Drawer Open</string>
+    <string name="drawerclose">Drawer Close</string>
+    <string name="setting">Settings</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">DONE</string>
+    <string name="SetIP">Set IP</string>>
+
+    <string name="slide_1_title">Smart Home!</string>
+    <string name="slide_1_desc">The easiest way to control all the devices from your phone.</string>
+
+    <string name="slide_2_title">Switch Devices</string>
+    <string name="slide_2_desc">Easily switch devices by switching it ON/OFF.</string>
+
+    <string name="slide_3_title">Set Timer</string>
+    <string name="slide_3_desc">Set timer with just a click. Just mention the starting and ending time!</string>
+
+    <string name="slide_4_title">Sensor Control Switch</string>
+    <string name="slide_4_desc">Switch on this switch if you want the system to switch the devices based on the system sensors.</string>
+
+    <string name="slide_5_title">Set IP</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
